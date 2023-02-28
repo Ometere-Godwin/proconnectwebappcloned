@@ -1,0 +1,102 @@
+.footer{
+    background-color: #f7f7f7;
+    margin-top: 3em;
+}
+
+.footerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 5em;
+    padding: 2em 0;
+}
+
+.leftFooterContainer{
+    flex: 1;
+    margin-right: 2em;
+}
+
+.rightFooterContainer > h2{
+    margin-bottom: 1em;
+}
+
+.leftFooterContainer > p{
+    text-align: justify;
+}
+
+.leftFooterContainer > p > span{
+    font-weight: bold;
+}
+
+.leftFooterContainer > img{
+    width: 15em;
+}
+
+.rightFooterContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactInfo{
+    font-size: 15px;
+    align-items: center;
+    display: flex;
+    gap: 1em;
+    margin-bottom: 0.5em;
+    font-size: 13px;
+}
+
+.span{
+    font-weight: bold;
+}
+
+.contactInfo .icon{
+    font-size: 14px;
+}
+
+.socialMedialContainer{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 1em;
+}
+
+.socialMedia  > a{
+    font-size: 3em;
+    color: white;
+}
+
+.socialMedia > a{
+    color: white;
+}
+
+.mediaIcon{
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 0.5em;
+    cursor: pointer;
+}
+
+.facebook{
+    background-color: rgb(15, 15, 158);
+}
+
+.linkedIn{
+    background-color: rgb(114, 114, 247);
+}
+
+.twitter{
+    background-color: rgb(130, 64, 192);
+}
+
+.instagram{
+    background-color: rgb(201, 68, 68);
+}
+
+.leftSocialMedialContainer > label{
+    font-weight: 500;
+}

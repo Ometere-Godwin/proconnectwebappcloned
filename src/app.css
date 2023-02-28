@@ -1,0 +1,11 @@
+.apmp{
+    height: 100vh;
+}
+
+.sectnions{
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color: blue;
+    position: relative;
+    top: 60px;
+}

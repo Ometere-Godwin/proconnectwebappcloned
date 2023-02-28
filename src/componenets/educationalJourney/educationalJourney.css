@@ -1,0 +1,25 @@
+.educationalJourney{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F7F7F7;
+    margin: 3em 0;
+}
+
+.educationalJourney > h1{
+    text-transform: capitalize;
+    font-size: 25px;
+    padding-top: 3em;
+}
+
+.educationalJourneyButton{
+    width: 25%;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 2em;
+    align-items: center;
+    display: flex;
+    gap: 1em;
+    margin-left: 2em;
+}

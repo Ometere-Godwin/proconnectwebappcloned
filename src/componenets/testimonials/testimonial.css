@@ -1,0 +1,23 @@
+.testimonials{
+    display: flex;
+    align-items: center;
+}
+
+.testimonialWrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 6em;
+    margin-left: 6em;
+    justify-content: center;
+}
+
+.testimonialWrapper > img{
+    width: 50%;
+    object-fit: contain;
+}
+
+.testimonialWrapper > button{
+    background-color: blue;
+    width: 15%;
+}
