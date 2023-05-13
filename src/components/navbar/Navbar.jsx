@@ -1,7 +1,14 @@
 import React from "react";
+import Logo from "./Logo";
+import NavList from "./NavList";
+import GetStarted from "./GetStarted";
 
 export default function Navbar() {
   return (
-    <div className="text-3xl font-bold underline bg-red-400 w-1/2"> Navbar</div>
+    <div className="max-w-[90rem] h-24 mx-auto flex justify-between items-center sticky top-0 z-50 bg-white ">
+      <Logo />
+      <NavList />
+      <GetStarted />
+    </div>
   );
 }
