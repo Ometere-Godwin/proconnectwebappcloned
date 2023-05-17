@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 export default function NavList() {
   return (
     <div className=" max-w-5xl ">
-      <ul className=" flex items-center gap-10 text-base tracking-wide cursor-pointer text-xl">
+      <ul className="hidden md:flex items-center gap-10 text-base tracking-wide cursor-pointer">
         {navLinks.map(({ id, name, link }) => (
           <li key={id}>
             <Link

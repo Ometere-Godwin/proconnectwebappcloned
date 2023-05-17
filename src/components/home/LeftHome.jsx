@@ -8,13 +8,12 @@ export default function LeftHome() {
     ],
     loop: 1,
     typeSpeed: 70,
-
     delaySpeed: 2000,
   });
   return (
     <div className=" flex items-center flex-col">
       <div className="absolute left-[7em] top-[20em] w-[42em]">
-        <p className="text-3xl font-bold text-base leading-[1.5em] tracking-wide">
+        <p className="text-3xl font-bold leading-[1.5em] tracking-wide">
           {text}
         </p>
       </div>
